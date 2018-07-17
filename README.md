@@ -31,7 +31,7 @@ Một số option:
     - **--hompage**:  homepage của package  
     - **--require**: packge yêu cầu với phiên bản bắt buộc. format `foo/bar:1.0.0`  
     - **--require-dev**: yêu cầu phát triển  
-        - from stackoverflow: The `require-dev` packages are packages that aren't necessary for your project to work and shouldn't be included in the production version of your project.
+    - from stackoverflow: The `require-dev` packages are packages that aren't necessary for your project to work and shouldn't be included in the production version of your project.  
     - **--stability (-s)**: gía trị cho trường `minimum-stability`  
     - **--license(-l)**: giấy phép của package  
     - **--repository**: cung cấp 1 hoặc nhiều repo. chúng sẽ đưọc lưu trong composer.json  
