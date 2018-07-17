@@ -7,7 +7,7 @@ Thực thi lệnh dưới đây. 'mylibrary' là tên chung, thay thế bằng b
 ```
 composer create-project buonzz/composer-library-template mylibrary
 ```
-=> folder:
+=> folder:  
     - **src**: nơi lưu code, mỗi class sẽ phải nằm trong tập tin riêng của nó trong folder này.  
     - **tests**: mỗi class viết ra trong src cần phải đưọc test trước khi được include vào đâu đó. => Về cơ bản chúng ta có test class để test các class khác 
     - **.gitignore**: ignore file không muốn đưa lên git  
