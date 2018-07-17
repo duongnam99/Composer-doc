@@ -7,14 +7,16 @@ Thực thi lệnh dưới đây. 'mylibrary' là tên chung, thay thế bằng b
 ```
 composer create-project buonzz/composer-library-template mylibrary
 ```
-=> folder:  
-    - **src**: nơi lưu code, mỗi class sẽ phải nằm trong tập tin riêng của nó trong folder này.  
-    - **tests**: mỗi class viết ra trong src cần phải đưọc test trước khi được include vào đâu đó. => Về cơ bản chúng ta có test class để test các class khác 
-    - **.gitignore**: ignore file không muốn đưa lên git  
-    - **LICENSE**: điều khoản sử dụng  
-    - **README.md**: tài liệu cho library  
-    - **composer.json**: lưu trữ thông tin về library, như tên package, tác gỉa , dependencies...  
-    - **phpunix.xml**: file cấu hình của PHPUnit.  
+=> folder: 
+
+- **src**: nơi lưu code, mỗi class sẽ phải nằm trong tập tin riêng của nó trong folder này.  
+- **tests**: mỗi class viết ra trong src cần phải đưọc test trước khi được include vào đâu đó. => Về cơ bản chúng ta có test class để test các class khác 
+- **.gitignore**: ignore file không muốn đưa lên git  
+- **LICENSE**: điều khoản sử dụng  
+- **README.md**: tài liệu cho library  
+- **composer.json**: lưu trữ thông tin về library, như tên package, tác gỉa , dependencies...  
+- **phpunix.xml**: file cấu hình của PHPUnit.  
+
 Đây là cấu trúc thư mục cơ bản nhất để bắt đầu.
 
 ### Tùy chính file được tạo  
