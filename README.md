@@ -3,7 +3,7 @@
 - thực hiện: Dương Minh Nam 
 ### Global Options  
 Các option dưói đây có thể dùng trong mọi lệnh:  
-    - **--verbose (-v)**: Tăng độ dài cho thông báo 
+    - **--verbose (-v)**: Tăng độ dài cho thông báo  
     - **--help (-h)**: Hiển thị thông tin trợ giúp  
     - **--quiet (-q)**: Không hiển thị message  
     - **--no-interacion (-n)**: Không hỏi câu hỏi  
@@ -23,7 +23,7 @@ Có thể tạo file composer.json một cách thủ công, tuy nhiên cách d�
 php composer.phar init
 ```
 #### Options:
-Một số option:
+Một số option:  
     - **--name: tên package
     - **--description**: mô tả  
     - **--author**: tên tác gỉa  
@@ -39,7 +39,7 @@ Lệnh `install` đọc file composer.json, bắt các dependencies, cài đặt
 ```php composer.phar install```  
 Nếu chưa có file composer.json, Composer sẽ khởi tạo sao khi cài dependency
 #### Options
-Một số option:
+Một số option:  
     - **--prefer-source/--prefer-dist**: cài đặt từ `source` hoặc `dist`, phiên bản ổn định mặc định là `dist`  
     - **--dry-run**: mô phỏng cài thử xem chuyện gì xảy ra  
     - **--dev**: cài đặt theo `require-dev` ( mặc định )  
