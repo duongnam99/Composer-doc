@@ -58,7 +58,8 @@ php composer.phar update vendor/*
 #### Óptions ( tương tự update)  
 
 ### Require:  
-```php composer.phar require
+```
+php composer.phar require
 ```
 
 ### Remove
