@@ -90,5 +90,5 @@ Nên chạy lệnh này trước khi commit file composer.json. Nó sẽ kiểm 
 ``` 
 php composer.phar validate
 ```
-### 
+### Etc...
 
