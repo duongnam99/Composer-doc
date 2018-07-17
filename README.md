@@ -3,25 +3,28 @@
 - thực hiện: Dương Minh Nam 
 ### Global Options  
 Các option dưói đây có thể dùng trong mọi lệnh:  
-    - **--verbose (-v)**: Tăng độ dài cho thông báo  
-    - **--help (-h)**: Hiển thị thông tin trợ giúp
-    - **--quiet (-q)**: Không hiển thị message 
-    - **--no-interacion (-n)**: Không hỏi câu hỏi
-    - **--no-plugins**: tắt plugins
-    - **--working-dir (-d)**: nếu đưọc chỉ định, dùng thư mục đó là thư mục làm việc
-    - **--profile**: Hiển thị thông tin về thời gian và bộ nhớ sử dụng 
-    - **--ansi**: đầu ra là ANSI 
-    - **--no-ansi**: tắt đầu ra là ANSI
-    - **--version (-V)**: hiển thị version.
+    - **--verbose (-v)**: Tăng độ dài cho thông báo 
+    - **--help (-h)**: Hiển thị thông tin trợ giúp  
+    - **--quiet (-q)**: Không hiển thị message  
+    - **--no-interacion (-n)**: Không hỏi câu hỏi  
+    - **--no-plugins**: tắt plugins  
+    - **--working-dir (-d)**: nếu đưọc chỉ định, dùng thư mục đó là thư mục làm việc  
+    - **--profile**: Hiển thị thông tin về thời gian và bộ nhớ sử dụng   
+    - **--ansi**: đầu ra là ANSI  
+    - **--no-ansi**: tắt đầu ra là ANSI  
+    - **--version (-V)**: hiển thị version.  
 ### Exit Codes:
     - 0: OK
     - 1: Lỗi không xác định
     - 2: Lỗi dependency solving
 ### Init  
 Có thể tạo file composer.json một cách thủ công, tuy nhiên cách dễ dàng hơn là dùng lệnh: 
-```php composer.phar init```
-#### Options:  
-    - **--name**: tên package
+```
+php composer.phar init
+```
+#### Options:
+Một số option:
+    - **--name: tên package
     - **--description**: mô tả  
     - **--author**: tên tác gỉa
     - **--type**: loại package
@@ -36,6 +39,7 @@ Lệnh `install` đọc file composer.json, bắt các dependencies, cài đặt
 ```php composer.phar install```  
 Nếu chưa có file composer.json, Composer sẽ khởi tạo sao khi cài dependency
 #### Options
+Một số option:
     - **--prefer-source/--prefer-dist**: cài đặt từ `source` hoặc `dist`, phiên bản ổn định mặc định là `dist` 
     - **--dry-run**: mô phỏng cài thử xem chuyện gì xảy ra
     - **--dev**: cài đặt theo `require-dev` ( mặc định )
