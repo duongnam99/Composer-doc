@@ -85,3 +85,10 @@ List all of the available packages:
 php composer.phar show
 ```
 
+### Validate  
+Nên chạy lệnh này trước khi commit file composer.json. Nó sẽ kiểm tra xem composer.json có hợp lệ  hay không  
+``` 
+php composer.phar validate
+```
+### 
+
