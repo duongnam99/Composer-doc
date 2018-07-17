@@ -24,7 +24,7 @@ php composer.phar init
 ```
 #### Options:
 Một số option:  
-    - **--name: tên package
+    - **--name**: tên package  
     - **--description**: mô tả  
     - **--author**: tên tác gỉa  
     - **--type**: loại package  
